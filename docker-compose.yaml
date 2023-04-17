@@ -6,7 +6,6 @@ services:
       - 3000:3000
     environment:
       - GPT_URL=https://api.openai.com/v1/chat/completions
-      - GPT_API_KEY=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
       - GPT_MODEL=gpt-3.5-turbo
       - HOST=0.0.0.0
       - PORT=3000
